@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		174B1A25C7F232790118B9C9 /* Pods_RxGesturePlayGardenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9D52870108CFE1130F41BC /* Pods_RxGesturePlayGardenTests.framework */; };
+		3AAA064E200105D50098DBD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA064D200105D50098DBD1 /* AppDelegate.swift */; };
+		3AAA0655200105D50098DBD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA0653200105D50098DBD1 /* Main.storyboard */; };
+		3AAA0657200105D50098DBD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA0656200105D50098DBD1 /* Assets.xcassets */; };
+		3AAA065A200105D50098DBD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA0658200105D50098DBD1 /* LaunchScreen.storyboard */; };
+		3AAA0665200105D50098DBD1 /* RxGesturePlayGardenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA0664200105D50098DBD1 /* RxGesturePlayGardenTests.swift */; };
+		3AAA0670200105D50098DBD1 /* RxGesturePlayGardenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA066F200105D50098DBD1 /* RxGesturePlayGardenUITests.swift */; };
+		3AAA067F200105F70098DBD1 /* RotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA067D200105F60098DBD1 /* RotationViewController.swift */; };
+		3AAA0680200105F70098DBD1 /* TranslationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA067E200105F60098DBD1 /* TranslationViewController.swift */; };
+		3AAA0682200106260098DBD1 /* CGStruct+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA0681200106260098DBD1 /* CGStruct+Extension.swift */; };
+		3AAA06842001362C0098DBD1 /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA06832001362C0098DBD1 /* DrawingViewController.swift */; };
+		5E5D1C10C2F8678B3DCE3010 /* Pods_RxGesturePlayGardenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC33E54C5269B6F97744AE24 /* Pods_RxGesturePlayGardenUITests.framework */; };
+		C66FA093D0328079E7D7E038 /* Pods_RxGesturePlayGarden.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A834A715D9ACF3D1CDDB248D /* Pods_RxGesturePlayGarden.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AAA0661200105D50098DBD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AAA0642200105D50098DBD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AAA0649200105D50098DBD1;
+			remoteInfo = RxGesturePlayGarden;
+		};
+		3AAA066C200105D50098DBD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AAA0642200105D50098DBD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AAA0649200105D50098DBD1;
+			remoteInfo = RxGesturePlayGarden;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F0D0F01312BA77BF67B3A8A /* Pods-RxGesturePlayGardenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGesturePlayGardenUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxGesturePlayGardenUITests/Pods-RxGesturePlayGardenUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		16BC16414CC4B30BA5B5EFFB /* Pods-RxGesturePlayGarden.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGesturePlayGarden.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxGesturePlayGarden/Pods-RxGesturePlayGarden.debug.xcconfig"; sourceTree = "<group>"; };
+		1970A79E715269E86E34B875 /* Pods-RxGesturePlayGarden.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGesturePlayGarden.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxGesturePlayGarden/Pods-RxGesturePlayGarden.release.xcconfig"; sourceTree = "<group>"; };
+		3AAA064A200105D50098DBD1 /* RxGesturePlayGarden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxGesturePlayGarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AAA064D200105D50098DBD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AAA0654200105D50098DBD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AAA0656200105D50098DBD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AAA0659200105D50098DBD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AAA065B200105D50098DBD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AAA0660200105D50098DBD1 /* RxGesturePlayGardenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxGesturePlayGardenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AAA0664200105D50098DBD1 /* RxGesturePlayGardenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxGesturePlayGardenTests.swift; sourceTree = "<group>"; };
+		3AAA0666200105D50098DBD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AAA066B200105D50098DBD1 /* RxGesturePlayGardenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxGesturePlayGardenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AAA066F200105D50098DBD1 /* RxGesturePlayGardenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxGesturePlayGardenUITests.swift; sourceTree = "<group>"; };
+		3AAA0671200105D50098DBD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AAA067D200105F60098DBD1 /* RotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationViewController.swift; sourceTree = "<group>"; };
+		3AAA067E200105F60098DBD1 /* TranslationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslationViewController.swift; sourceTree = "<group>"; };
+		3AAA0681200106260098DBD1 /* CGStruct+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGStruct+Extension.swift"; sourceTree = "<group>"; };
+		3AAA06832001362C0098DBD1 /* DrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
+		3F5830FF2C3C7E3C38F980BA /* Pods-RxGesturePlayGardenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGesturePlayGardenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxGesturePlayGardenTests/Pods-RxGesturePlayGardenTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F9D52870108CFE1130F41BC /* Pods_RxGesturePlayGardenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxGesturePlayGardenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A834A715D9ACF3D1CDDB248D /* Pods_RxGesturePlayGarden.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxGesturePlayGarden.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC33E54C5269B6F97744AE24 /* Pods_RxGesturePlayGardenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxGesturePlayGardenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B35D32DC7981595C1C33BE /* Pods-RxGesturePlayGardenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGesturePlayGardenUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxGesturePlayGardenUITests/Pods-RxGesturePlayGardenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DA4CB4A5666862813AE219DE /* Pods-RxGesturePlayGardenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGesturePlayGardenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxGesturePlayGardenTests/Pods-RxGesturePlayGardenTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AAA0647200105D50098DBD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66FA093D0328079E7D7E038 /* Pods_RxGesturePlayGarden.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AAA065D200105D50098DBD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174B1A25C7F232790118B9C9 /* Pods_RxGesturePlayGardenTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AAA0668200105D50098DBD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5D1C10C2F8678B3DCE3010 /* Pods_RxGesturePlayGardenUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38BAF99F61D2E346241599FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16BC16414CC4B30BA5B5EFFB /* Pods-RxGesturePlayGarden.debug.xcconfig */,
+				1970A79E715269E86E34B875 /* Pods-RxGesturePlayGarden.release.xcconfig */,
+				DA4CB4A5666862813AE219DE /* Pods-RxGesturePlayGardenTests.debug.xcconfig */,
+				3F5830FF2C3C7E3C38F980BA /* Pods-RxGesturePlayGardenTests.release.xcconfig */,
+				0F0D0F01312BA77BF67B3A8A /* Pods-RxGesturePlayGardenUITests.debug.xcconfig */,
+				C5B35D32DC7981595C1C33BE /* Pods-RxGesturePlayGardenUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3AAA0641200105D50098DBD1 = {
+			isa = PBXGroup;
+			children = (
+				3AAA064C200105D50098DBD1 /* RxGesturePlayGarden */,
+				3AAA0663200105D50098DBD1 /* RxGesturePlayGardenTests */,
+				3AAA066E200105D50098DBD1 /* RxGesturePlayGardenUITests */,
+				3AAA064B200105D50098DBD1 /* Products */,
+				38BAF99F61D2E346241599FC /* Pods */,
+				D14147751490553580AB07D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3AAA064B200105D50098DBD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AAA064A200105D50098DBD1 /* RxGesturePlayGarden.app */,
+				3AAA0660200105D50098DBD1 /* RxGesturePlayGardenTests.xctest */,
+				3AAA066B200105D50098DBD1 /* RxGesturePlayGardenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AAA064C200105D50098DBD1 /* RxGesturePlayGarden */ = {
+			isa = PBXGroup;
+			children = (
+				3AAA064D200105D50098DBD1 /* AppDelegate.swift */,
+				3AAA0681200106260098DBD1 /* CGStruct+Extension.swift */,
+				3AAA067D200105F60098DBD1 /* RotationViewController.swift */,
+				3AAA067E200105F60098DBD1 /* TranslationViewController.swift */,
+				3AAA06832001362C0098DBD1 /* DrawingViewController.swift */,
+				3AAA0653200105D50098DBD1 /* Main.storyboard */,
+				3AAA0656200105D50098DBD1 /* Assets.xcassets */,
+				3AAA0658200105D50098DBD1 /* LaunchScreen.storyboard */,
+				3AAA065B200105D50098DBD1 /* Info.plist */,
+			);
+			path = RxGesturePlayGarden;
+			sourceTree = "<group>";
+		};
+		3AAA0663200105D50098DBD1 /* RxGesturePlayGardenTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AAA0664200105D50098DBD1 /* RxGesturePlayGardenTests.swift */,
+				3AAA0666200105D50098DBD1 /* Info.plist */,
+			);
+			path = RxGesturePlayGardenTests;
+			sourceTree = "<group>";
+		};
+		3AAA066E200105D50098DBD1 /* RxGesturePlayGardenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AAA066F200105D50098DBD1 /* RxGesturePlayGardenUITests.swift */,
+				3AAA0671200105D50098DBD1 /* Info.plist */,
+			);
+			path = RxGesturePlayGardenUITests;
+			sourceTree = "<group>";
+		};
+		D14147751490553580AB07D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A834A715D9ACF3D1CDDB248D /* Pods_RxGesturePlayGarden.framework */,
+				9F9D52870108CFE1130F41BC /* Pods_RxGesturePlayGardenTests.framework */,
+				BC33E54C5269B6F97744AE24 /* Pods_RxGesturePlayGardenUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AAA0649200105D50098DBD1 /* RxGesturePlayGarden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AAA0674200105D50098DBD1 /* Build configuration list for PBXNativeTarget "RxGesturePlayGarden" */;
+			buildPhases = (
+				B700FB082830EB7D358C28BF /* [CP] Check Pods Manifest.lock */,
+				3AAA0646200105D50098DBD1 /* Sources */,
+				3AAA0647200105D50098DBD1 /* Frameworks */,
+				3AAA0648200105D50098DBD1 /* Resources */,
+				239C7438F042ABA2CB8E41C4 /* [CP] Embed Pods Frameworks */,
+				06A165760E6E239CDD4B0EC6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxGesturePlayGarden;
+			productName = RxGesturePlayGarden;
+			productReference = 3AAA064A200105D50098DBD1 /* RxGesturePlayGarden.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AAA065F200105D50098DBD1 /* RxGesturePlayGardenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AAA0677200105D50098DBD1 /* Build configuration list for PBXNativeTarget "RxGesturePlayGardenTests" */;
+			buildPhases = (
+				3DC637CE3843E986C3A35314 /* [CP] Check Pods Manifest.lock */,
+				3AAA065C200105D50098DBD1 /* Sources */,
+				3AAA065D200105D50098DBD1 /* Frameworks */,
+				3AAA065E200105D50098DBD1 /* Resources */,
+				507E6C1E9898E8F2238D4354 /* [CP] Embed Pods Frameworks */,
+				EA08B559AB83B0B63AC55DA0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AAA0662200105D50098DBD1 /* PBXTargetDependency */,
+			);
+			name = RxGesturePlayGardenTests;
+			productName = RxGesturePlayGardenTests;
+			productReference = 3AAA0660200105D50098DBD1 /* RxGesturePlayGardenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AAA066A200105D50098DBD1 /* RxGesturePlayGardenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AAA067A200105D50098DBD1 /* Build configuration list for PBXNativeTarget "RxGesturePlayGardenUITests" */;
+			buildPhases = (
+				4DB58F7E087B631E8315E5A8 /* [CP] Check Pods Manifest.lock */,
+				3AAA0667200105D50098DBD1 /* Sources */,
+				3AAA0668200105D50098DBD1 /* Frameworks */,
+				3AAA0669200105D50098DBD1 /* Resources */,
+				FF7BF49D4C030977894E91C7 /* [CP] Embed Pods Frameworks */,
+				7970A31B9857C63E4073EA75 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AAA066D200105D50098DBD1 /* PBXTargetDependency */,
+			);
+			name = RxGesturePlayGardenUITests;
+			productName = RxGesturePlayGardenUITests;
+			productReference = 3AAA066B200105D50098DBD1 /* RxGesturePlayGardenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AAA0642200105D50098DBD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ming;
+				TargetAttributes = {
+					3AAA0649200105D50098DBD1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3AAA065F200105D50098DBD1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3AAA0649200105D50098DBD1;
+					};
+					3AAA066A200105D50098DBD1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3AAA0649200105D50098DBD1;
+					};
+				};
+			};
+			buildConfigurationList = 3AAA0645200105D50098DBD1 /* Build configuration list for PBXProject "RxGesturePlayGarden" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AAA0641200105D50098DBD1;
+			productRefGroup = 3AAA064B200105D50098DBD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AAA0649200105D50098DBD1 /* RxGesturePlayGarden */,
+				3AAA065F200105D50098DBD1 /* RxGesturePlayGardenTests */,
+				3AAA066A200105D50098DBD1 /* RxGesturePlayGardenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AAA0648200105D50098DBD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AAA065A200105D50098DBD1 /* LaunchScreen.storyboard in Resources */,
+				3AAA0657200105D50098DBD1 /* Assets.xcassets in Resources */,
+				3AAA0655200105D50098DBD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AAA065E200105D50098DBD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AAA0669200105D50098DBD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06A165760E6E239CDD4B0EC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxGesturePlayGarden/Pods-RxGesturePlayGarden-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		239C7438F042ABA2CB8E41C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxGesturePlayGarden/Pods-RxGesturePlayGarden-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxGesture/RxGesture.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxGesture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxGesturePlayGarden/Pods-RxGesturePlayGarden-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DC637CE3843E986C3A35314 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxGesturePlayGardenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DB58F7E087B631E8315E5A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxGesturePlayGardenUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		507E6C1E9898E8F2238D4354 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxGesturePlayGardenTests/Pods-RxGesturePlayGardenTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7970A31B9857C63E4073EA75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxGesturePlayGardenUITests/Pods-RxGesturePlayGardenUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B700FB082830EB7D358C28BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxGesturePlayGarden-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA08B559AB83B0B63AC55DA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxGesturePlayGardenTests/Pods-RxGesturePlayGardenTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF7BF49D4C030977894E91C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxGesturePlayGardenUITests/Pods-RxGesturePlayGardenUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AAA0646200105D50098DBD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AAA067F200105F70098DBD1 /* RotationViewController.swift in Sources */,
+				3AAA064E200105D50098DBD1 /* AppDelegate.swift in Sources */,
+				3AAA06842001362C0098DBD1 /* DrawingViewController.swift in Sources */,
+				3AAA0680200105F70098DBD1 /* TranslationViewController.swift in Sources */,
+				3AAA0682200106260098DBD1 /* CGStruct+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AAA065C200105D50098DBD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AAA0665200105D50098DBD1 /* RxGesturePlayGardenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AAA0667200105D50098DBD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AAA0670200105D50098DBD1 /* RxGesturePlayGardenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AAA0662200105D50098DBD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AAA0649200105D50098DBD1 /* RxGesturePlayGarden */;
+			targetProxy = 3AAA0661200105D50098DBD1 /* PBXContainerItemProxy */;
+		};
+		3AAA066D200105D50098DBD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AAA0649200105D50098DBD1 /* RxGesturePlayGarden */;
+			targetProxy = 3AAA066C200105D50098DBD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AAA0653200105D50098DBD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AAA0654200105D50098DBD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AAA0658200105D50098DBD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AAA0659200105D50098DBD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AAA0672200105D50098DBD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AAA0673200105D50098DBD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AAA0675200105D50098DBD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16BC16414CC4B30BA5B5EFFB /* Pods-RxGesturePlayGarden.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxGesturePlayGarden/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingapp.RxGesturePlayGarden;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AAA0676200105D50098DBD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1970A79E715269E86E34B875 /* Pods-RxGesturePlayGarden.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxGesturePlayGarden/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingapp.RxGesturePlayGarden;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AAA0678200105D50098DBD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA4CB4A5666862813AE219DE /* Pods-RxGesturePlayGardenTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxGesturePlayGardenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingapp.RxGesturePlayGardenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxGesturePlayGarden.app/RxGesturePlayGarden";
+			};
+			name = Debug;
+		};
+		3AAA0679200105D50098DBD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F5830FF2C3C7E3C38F980BA /* Pods-RxGesturePlayGardenTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxGesturePlayGardenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingapp.RxGesturePlayGardenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxGesturePlayGarden.app/RxGesturePlayGarden";
+			};
+			name = Release;
+		};
+		3AAA067B200105D50098DBD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F0D0F01312BA77BF67B3A8A /* Pods-RxGesturePlayGardenUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxGesturePlayGardenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingapp.RxGesturePlayGardenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RxGesturePlayGarden;
+			};
+			name = Debug;
+		};
+		3AAA067C200105D50098DBD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B35D32DC7981595C1C33BE /* Pods-RxGesturePlayGardenUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxGesturePlayGardenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingapp.RxGesturePlayGardenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RxGesturePlayGarden;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AAA0645200105D50098DBD1 /* Build configuration list for PBXProject "RxGesturePlayGarden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AAA0672200105D50098DBD1 /* Debug */,
+				3AAA0673200105D50098DBD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AAA0674200105D50098DBD1 /* Build configuration list for PBXNativeTarget "RxGesturePlayGarden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AAA0675200105D50098DBD1 /* Debug */,
+				3AAA0676200105D50098DBD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AAA0677200105D50098DBD1 /* Build configuration list for PBXNativeTarget "RxGesturePlayGardenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AAA0678200105D50098DBD1 /* Debug */,
+				3AAA0679200105D50098DBD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AAA067A200105D50098DBD1 /* Build configuration list for PBXNativeTarget "RxGesturePlayGardenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AAA067B200105D50098DBD1 /* Debug */,
+				3AAA067C200105D50098DBD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AAA0642200105D50098DBD1 /* Project object */;
+}
