@@ -18,7 +18,7 @@ Any suggestions (e.g. more elegant or cleaner implementation) and questions are 
 XCode 9.1, Swift 4.0, iOS 9 or above
 
 ## Installation
-Download the project and please do ```pod install``` to install pods' dependencies. Learn more about [CocoaPods](http://cocoapods.org).
+Download or clone the project and please do ```pod install``` to install pods' dependencies. Learn more about [CocoaPods](http://cocoapods.org).
 
 ## License
 RxGesturePlayGarden is available under the MIT license. See the LICENSE file for more info.
