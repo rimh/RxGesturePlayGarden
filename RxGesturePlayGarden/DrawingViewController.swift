@@ -43,15 +43,15 @@ class DrawingViewController: UIViewController {
     func initPanObserver(){
         let observer = self.container.rx.panGesture().share(replay: 1)
         observer
-        .when(.began)
-        .asLocation()
-        .subscribe(onNext: { [unowned self] location in
+            .when(.began)
+            .asLocation()
+            .subscribe(onNext: { [unowned self] location in
                 self.startPoint = location
             }).disposed(by: self.disposeBag)
         observer
-        .when(.changed)
-        .asLocation()
-        .subscribe(onNext: { [unowned self] location in
+            .when(.changed)
+            .asLocation()
+            .subscribe(onNext: { [unowned self] location in
                 self.drawLine(fromPoint: self.startPoint, toPoint: location)
                 self.startPoint = location
             }).disposed(by: self.disposeBag)
@@ -61,19 +61,22 @@ class DrawingViewController: UIViewController {
     func initLongPressedObserver(){
         let observer = self.container.rx.longPressGesture().share(replay: 1)
         observer
-        .when(.began)
-        .subscribe(onNext: {[unowned self] _ in
-            self.container.image = nil
-        }).disposed(by: self.disposeBag)
+            .when(.began)
+            .subscribe(onNext: {[unowned self] _ in
+                self.container.image = nil
+            }).disposed(by: self.disposeBag)
     }
     
     func drawLine(fromPoint: CGPoint, toPoint: CGPoint) {
+        defer {
+            UIGraphicsEndImageContext()
+        }
         
-        UIGraphicsBeginImageContext(view.frame.size)
+        UIGraphicsBeginImageContext(container.frame.size)
         guard let context = UIGraphicsGetCurrentContext() else {
             return
         }
-        self.container.image?.draw(in: CGRect.init(origin: CGPoint.zero, size: self.view.frame.size))
+        self.container.image?.draw(in: CGRect.init(origin: CGPoint.zero, size: container.frame.size))
         context.move(to: fromPoint)
         context.addLine(to: toPoint)
         context.setLineCap(.round)
@@ -83,6 +86,7 @@ class DrawingViewController: UIViewController {
         context.strokePath()
         self.container.image = UIGraphicsGetImageFromCurrentImageContext()
         self.container.alpha = 1.0
-        UIGraphicsEndImageContext()
     }
 }
+
+
