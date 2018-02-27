@@ -140,11 +140,11 @@
 				3AAA067D200105F60098DBD1 /* RotationViewController.swift */,
 				3AAA067E200105F60098DBD1 /* TranslationViewController.swift */,
 				3AAA06832001362C0098DBD1 /* DrawingViewController.swift */,
+				3A6DC5412045A90C0007856E /* ScalingViewController.swift */,
 				3AAA0653200105D50098DBD1 /* Main.storyboard */,
 				3AAA0656200105D50098DBD1 /* Assets.xcassets */,
 				3AAA0658200105D50098DBD1 /* LaunchScreen.storyboard */,
 				3AAA065B200105D50098DBD1 /* Info.plist */,
-				3A6DC5412045A90C0007856E /* ScalingViewController.swift */,
 			);
 			path = RxGesturePlayGarden;
 			sourceTree = "<group>";

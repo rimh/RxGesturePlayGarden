@@ -81,7 +81,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="774" y="-136"/>
         </scene>
         <!--Translate-->
         <scene sceneID="wg7-f3-ORb">
@@ -155,7 +155,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wha-9R-dwr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="1037.6311844077961"/>
+            <point key="canvasLocation" x="474" y="1240"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -167,15 +167,15 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="GQC-mb-tUO" kind="relationship" relationship="viewControllers" id="MUL-QR-v0H"/>
                         <segue destination="i03-fj-fIb" kind="relationship" relationship="viewControllers" id="F6v-Vf-M5C"/>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="GQC-mb-tUO" kind="relationship" relationship="viewControllers" id="MUL-QR-v0H"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="-10" y="15"/>
         </scene>
         <!--Scale-->
         <scene sceneID="uVb-IX-LSF">
@@ -206,7 +206,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xKg-Gb-Z5a" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-119" y="824"/>
+            <point key="canvasLocation" x="-318" y="1051"/>
         </scene>
     </scenes>
     <resources>
