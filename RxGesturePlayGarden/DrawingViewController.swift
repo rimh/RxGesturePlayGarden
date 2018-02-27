@@ -68,12 +68,14 @@ class DrawingViewController: UIViewController {
     }
     
     func drawLine(fromPoint: CGPoint, toPoint: CGPoint) {
-        
-        UIGraphicsBeginImageContext(view.frame.size)
+        defer {
+            UIGraphicsEndImageContext()
+        }
+        UIGraphicsBeginImageContext(self.container.frame.size)
         guard let context = UIGraphicsGetCurrentContext() else {
             return
         }
-        self.container.image?.draw(in: CGRect.init(origin: CGPoint.zero, size: self.view.frame.size))
+        self.container.image?.draw(in: CGRect.init(origin: CGPoint.zero, size: self.container.frame.size))
         context.move(to: fromPoint)
         context.addLine(to: toPoint)
         context.setLineCap(.round)
@@ -83,6 +85,5 @@ class DrawingViewController: UIViewController {
         context.strokePath()
         self.container.image = UIGraphicsGetImageFromCurrentImageContext()
         self.container.alpha = 1.0
-        UIGraphicsEndImageContext()
     }
 }
